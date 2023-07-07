@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Chats</title>
+    <!-- for connecting the node socket server with the client  -->
+    <script deffer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script deffer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-image: url('./background-image.jpg');">
+    <div class="background-image"></div>
+    <nav>
+        <img class="logo" src="chat.webp" alt="">
+    </nav>
+    <div class="container">
+            <div class="message right">
+     Md Shaheer : How are You? 
+            </div>
+           <div class="message left">
+    jyotsna: I am Fine 😘, How about you !
+           </div>
+           <div class="message left">
+            jyotsna: I am Fine 😘, How about you !
+                   </div>
+    </div>
+   <div class="send" >
+   
+    <form action="#" id="send-container">
+        <input type="text" name="messageInp" id="messageInp">
+        <button class="btn" type="submit">Send</button>
+    </form>
+   </div>
+</body>
+
+
+
+
+
+
+
+</html>
